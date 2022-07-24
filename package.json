@@ -1,0 +1,31 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "core-js": "^3.23.4",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods",
+      "@babel/plugin-syntax-class-properties"
+    ]
+  }
+}
